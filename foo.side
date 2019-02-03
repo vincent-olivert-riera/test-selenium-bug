@@ -1,0 +1,35 @@
+{
+  "id": "b2e8875b-d0c2-4302-ba88-ddaca8e0a361",
+  "version": "2.0",
+  "name": "foo",
+  "url": "https://vincent-olivert-riera.github.io",
+  "tests": [{
+    "id": "e47c61f8-a53a-4c66-ba1c-d3c9a90eea17",
+    "name": "foo",
+    "commands": [{
+      "id": "e766cbcc-c5fd-46c4-a89b-6df5d02cd7e9",
+      "comment": "",
+      "command": "open",
+      "target": "/test-selenium-bug/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce66b4d0-f7b9-49f2-a297-e22b19b92c5a",
+      "comment": "",
+      "command": "type",
+      "target": "id=foo",
+      "targets": [],
+      "value": "/bar"
+    }]
+  }],
+  "suites": [{
+    "id": "5561fba2-ac18-4f63-942a-1ecbd8b72ae9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e47c61f8-a53a-4c66-ba1c-d3c9a90eea17"]
+  }],
+  "urls": ["https://vincent-olivert-riera.github.io/"],
+  "plugins": []
+}
